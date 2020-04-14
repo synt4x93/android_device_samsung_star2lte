@@ -16,9 +16,6 @@
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Property overrides
--include $(LOCAL_PATH)/product_prop.mk
-
 # Inherit common device configuration
 $(call inherit-product, device/samsung/universal9810-common/universal9810-common.mk)
 
