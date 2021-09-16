@@ -34,9 +34,3 @@ PRODUCT_MODEL := SM-G965F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-BUILD_FINGERPRINT := samsung/star2ltexx/star2lte:10/QP1A.190711.020/G965FXXU8DTC5:user/release-keys
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=star2ltexx \
-        PRIVATE_BUILD_DESC="star2ltexx-user 10 QP1A.190711.020 G965FXXU8DTC5 release-keys"
